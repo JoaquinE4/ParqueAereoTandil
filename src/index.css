@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  /* Paleta Naranja Empresarial */
+  --color-brand-orange: #FF7043;
+  --color-brand-dark: #E64A19;
+  --color-brand-soft: #FFF3E0;
+  --color-brand-text: #4A4A4A;
+  --color-brand-bg: #F8F9FA;
+  --color-brand-black: #1A1A1B;
+
+  --color-brand-orange: #FF7043;
+  --color-brand-dark: #E64A19;
+  --color-brand-soft: #FFF3E0;
+  --color-brand-text: #4A4A4A;
+  --color-brand-bg: #F8F9FA;
+  --color-brand-black: #1A1A1B;
+  --font-sans: "Open Sans", ui-sans-serif, system-ui;
+  --font-heading: "Montserrat", ui-sans-serif, system-ui;
+  --shadow-premium: 0 15px 35px rgba(0, 0, 0, 0.1);
+
+  /* Tipografías */
+  --font-sans: "Open Sans", ui-sans-serif, system-ui;
+  --font-heading: "Montserrat", ui-sans-serif, system-ui;
+
+  /* Sombras */
+  --shadow-premium: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+@layer base {
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap');
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-brand-text bg-white;
+    margin: 0;
+  }
+  
+  html { scroll-behavior: smooth; }
+  body { @apply font-sans text-brand-text bg-white m-0; }
+}
