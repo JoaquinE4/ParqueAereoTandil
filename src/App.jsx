@@ -382,7 +382,7 @@ export default function App() {
         href="https://wa.me/5492494123456"
         target="_blank"
         rel="noreferrer"
-        className="fixed bottom-8 right-8 z-[100] w-16 h-16 bg-[#25d366] text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform active:scale-90"
+        className="fixed bottom-8 right-8 z-[101] w-16 h-16 bg-[#25d366] text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform active:scale-90"
         title="Chatear con nosotros"
       >
         <svg viewBox="0 0 24 24" width="35" height="35" fill="currentColor">

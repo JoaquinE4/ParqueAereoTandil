@@ -33,7 +33,7 @@ const Header = () => {
     }, []);
 
     return (
-        <header className="relative h-[calc(100vh-16.5px)] flex items-center justify-center text-center text-white bg-slate-900 overflow-hidden">
+        <header className="relative w-auto h-[calc(100vh-16.5px)] flex items-center justify-center text-center text-white bg-slate-900 overflow-hidden">
             {/* Fondo de partículas */}
             <div id="particles-js" className="absolute inset-0 w-full h-full"></div>
 
